@@ -27,13 +27,14 @@
 <?php } ?>
 <div id="comments">
     <?php $this->comments()->to($comments); ?>
+    <?php if ($comments->have()) : ?>
     <center>
         <h4><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></h4>
     </center>
     <?php $comments->listComments(); ?>
 
     <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
-
+    <?php endif; ?>
     <?php if ($this->allow('comment')) : ?>
     <div id="<?php $this->respondId(); ?>" class="respond">
         <form method="post" action="<?php $this->commentUrl() ?>" id="comment-form" role="form" class="form-horizontal">
