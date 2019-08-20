@@ -11,7 +11,7 @@
           <center>
             &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
             Powerby <a href="http://www.typecho.org">Typecho</a>.
-            Theme <a href="#">BaseHD</a> BY <a href="https://github.com/FireUnicornser">FireUnicornser</a>
+            Theme <a href="https://github.com/FireUnicornser/BaseHD">BaseHD</a> BY <a href="https://github.com/FireUnicornser">FireUnicornser</a>
           </center>
         </p>
       </div>
