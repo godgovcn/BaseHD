@@ -34,7 +34,7 @@ $this->need('header.php');
   <?php endwhile; ?>
 
   <div class="pagination">
-    <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+    <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
   </div>
 </div>
 
