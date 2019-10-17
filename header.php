@@ -17,9 +17,10 @@
 
   <!-- Le styles -->
   <link rel="stylesheet" href="<?php $this->options->themeUrl('./css/bootstrap.css'); ?>">
+  <link rel="stylesheet" href="<?php $this->options->themeUrl('./css/bootstrap-basehd.css'); ?>">
 
   <!--[if lte IE 6]>
-    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('./css/bootstrap-ie6.min.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('./css/bootstrap-ie6.css'); ?>">
     <![endif]-->
 
   <!--[if lte IE 7]>

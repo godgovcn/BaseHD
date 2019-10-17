@@ -33,7 +33,7 @@ $this->need('header.php');
     </article>
   <?php endwhile; ?>
 
-  <div class="pagination">
+  <div class="pagination pagination-centered">
     <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
   </div>
 </div>
